@@ -1,0 +1,107 @@
+/* CSS Section */
+    /* General Styles */
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f7fa;
+        color: #333;
+        text-align: center;
+    }
+
+    header {
+        background-color: #4caf50;
+        color: white;
+        padding: 2rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    /* Roadmap Container */
+    .roadmap-container {
+        position: relative;
+        width: 800px;
+        height: 600px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    /* Car Icon */
+    .car {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        font-size: 2rem;
+        transition: all 1s ease;
+    }
+
+    /* Year Markers */
+    .year-marker {
+        position: absolute;
+        background-color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .year-marker:hover {
+        transform: scale(1.1);
+    }
+
+    /* Road Path */
+    .road-svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    /* Year Details */
+    .year-details {
+        display: none;
+        margin: 2rem auto;
+        padding: 2rem;
+        max-width: 800px;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+
+    /* Resume Download Button */
+    .resume-download {
+        margin-top: 1rem;
+    }
+
+    .download-button {
+        display: inline-block;
+        padding: 0.8rem 1.2rem;
+        background-color: #4caf50;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease;
+    }
+
+    .download-button:hover {
+        background-color: #45a045;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+        font-size: 0.9rem;
+    }

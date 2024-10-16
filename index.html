@@ -1,0 +1,75 @@
+<!-- HTML Section -->
+<!-- HTML Section -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will Walton's Career Roadmap</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Will Walton's Career Roadmap</h1>
+        <p>Click on any year to follow my journey!</p>
+    </header>
+
+    <!-- Winding Road Container -->
+    <div class="roadmap-container">
+        <!-- Car icon -->
+        <div id="car" class="car">
+            🚗
+        </div>
+
+        <!-- Markers for each year -->
+        <div class="year-marker" data-year="2020" style="top: 50px; left: 50px;">2020</div>
+        <div class="year-marker" data-year="2022" style="top: 150px; left: 200px;">2022</div>
+        <div class="year-marker" data-year="2023" style="top: 300px; left: 350px;">
+            2023 🏆 <!-- Trophy for internship -->
+        </div>
+        <div class="year-marker" data-year="2024" style="top: 400px; left: 500px;">
+            2024 🏆 <!-- Trophy for internship -->
+        </div>
+        <div class="year-marker" data-year="2025" style="top: 500px; left: 700px;">2025</div>
+
+        <!-- Winding road path (use SVG for smooth design) -->
+        <svg class="road-svg" viewBox="0 0 800 600">
+            <path id="road" d="M50 50 Q200 150 350 300 Q500 400 700 500" stroke="gray" stroke-width="4" fill="none" stroke-dasharray="5, 5" />
+        </svg>
+    </div>
+
+    <!-- Expandable Details for Each Year -->
+    <div class="year-details" id="details-2020">
+        <h2>2020</h2>
+        <p>Started TW3 Technologies at age 14, laying the foundation for my entrepreneurial journey.</p>
+    </div>
+    <div class="year-details" id="details-2022">
+        <h2>2022</h2>
+        <p>Meta Platforms BLOCS Program - Learned HTML, JavaScript, and received mentorship through CodePath.org.</p>
+    </div>
+    <div class="year-details" id="details-2023">
+        <h2>2023</h2>
+        <p>Wabtec Corporation - Developed a web app for regression testing using Django, JavaScript, and Python.</p>
+    </div>
+    <div class="year-details" id="details-2024">
+        <h2>2024</h2>
+        <p>Google Tech Exchange Program - Completed with a 4.0 GPA. Chevron Intern, developed Power BI systems with C# and Azure.</p>
+    </div>
+    <div class="year-details" id="details-2025">
+        <h2>2025</h2>
+        <p>On track for future growth, potentially exploring Google internships and advanced cloud computing roles.</p>
+    </div>
+
+    <!-- Resume Download Button -->
+    <div class="resume-download">
+        <a href="/mnt/data/Will_Walton_Resume.pdf" download="Will_Walton_Resume.pdf" class="download-button">
+            📄 Download My Resume
+        </a>
+    </div>
+
+    <footer>
+        <p>© 2024 Will Walton. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
