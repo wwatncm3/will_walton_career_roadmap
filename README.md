@@ -70,9 +70,5 @@ If you would like to contribute to this project, please follow these steps:
 
 ## Contact Information
 - **LinkedIn**: [Will Walton III](https://www.linkedin.com/in/will-walton-iii-352402245/)
-- **Instagram**: [@treycondones](https://www.instagram.com/treycondones/?next=%2F)
 
 Feel free to reach out if you have any questions or suggestions regarding this project.
-
-## License
-This project is licensed under the MIT License - see the `LICENSE` file for details.
